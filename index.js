@@ -50,6 +50,7 @@ app.post("/user/create",(req,res)=>{
 
 app.post("/user/login", (req, res) => {
     if (req.body.username && req.body.password){
+        // console.log(req);
       fs.readFile("./db.json", "utf-8", (err, data) => {
         const parsed = JSON.parse(data);
         parsed.user = parsed.user.map((el) =>{
@@ -80,7 +81,7 @@ app.post("/user/login", (req, res) => {
            }
           }
           );
-          writeFile("./db.json",JSON.stringify(parsed), "utf-8", () => {
+          fs.writeFile("./db.json",JSON.stringify(parsed), "utf-8", () => {
               res.status(201).send(`logout sucessfully ${req.body.token}`);
             }
           );

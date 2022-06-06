@@ -1,58 +1,12 @@
 {
   "user": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "role": "voters",
-      "username": "john",
-      "password": "1234",
-      "age": 15,
-      "token": "6f85eca06c"
-    },
-    {
-      "id": 2,
-      "name": "Donald Trump",
-      "role": "candidate",
-      "votes": 0,
-      "party": "republicans",
-      "age": 15
-    },
-    {
-      "id": 3,
-      "name": "shahbaj alam",
-      "role": "voters",
-      "username": "shahbaj",
-      "password": "12345",
-      "age": 18,
-      "token": "6f85eca06cbc"
-    },
-    {
-      "id": 3,
-      "name": "shahbaj alam",
-      "role": "voter",
-      "username": "shahbaj",
-      "password": "12345",
-      "age": 18,
-      "token": "6f85eca06cbc"
-    },
-    {
-      "id": 3,
-      "name": "shahbaj alam",
-      "role": "voter",
-      "username": "shahbaj",
-      "password": "12345",
-      "age": 18,
-      "token": "6f85eca06cbc"
-    },
-    {
-      "id": 3,
-      "name": "shahbaj alam",
-      "role": "voter",
-      "username": "shahbaj",
-      "password": "12345",
-      "age": 18,
-      "token": "6f85eca06cbc"
-    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     {
       "id": 3,
       "name": "shahbaj alam",
